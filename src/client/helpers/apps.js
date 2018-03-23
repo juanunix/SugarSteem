@@ -1,0 +1,18 @@
+export default {
+  steemit: 'Steemit',
+  busy: 'Busy',
+  esteem: 'eSteem',
+  chainbb: 'chainBB',
+  utopian: 'Utopian',
+  dtube: 'DTube',
+  dlive: 'DLive',
+  dmania: 'dMania',
+  dsound: 'DSound',
+  steepshot: 'Steepshot',
+  zappl: 'Zappl',
+  steemkr: 'Steemkr',
+  steemhunt: 'Steemhunt',
+  steemjs: 'Steem.js',
+  steemplace: 'Steem.Place',
+  strimi: 'Strimi',
+};
