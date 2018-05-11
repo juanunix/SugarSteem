@@ -1,0 +1,97 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Profile | Sugar Steem</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../styles/sugarsteem.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../styles/profile.css" />
+  <script src="../scripts/sugarsteem.js"></script>
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="main-header__branding">
+      <h1>sugar<span>steem</span></h1>
+    </div>
+
+    <div class="main-header__search">
+      <input class="main-header__search__input" type="text" placeholder="Search for an article or name...">
+    </div>
+
+    <div class="main-header__meta">
+      <a href="#" class="button-large-rounded">Post</a>
+    </div>
+
+    <nav class="main-navigation">
+      <ul class="main-navigation__list">
+        <li class="main-navigation__list-item"><a href="#">My Feed</a></li>
+        <li class="main-navigation__list-item"><a href="#">My Profile</a></li>
+        <li class="main-navigation__list-item"><a href="#">My Favorites</a></li>
+        <li class="main-navigation__list-item"><a href="#">Save For Later</a></li>
+      </ul>
+
+      <ul class="main-navigation__list">
+        <li class="main-navigation__list-item"><a href="#">Trending</a></li>
+        <li class="main-navigation__list-item"><a href="#">New</a></li>
+        <li class="main-navigation__list-item"><a href="#">Onboarding</a></li>
+        <li class="main-navigation__list-item"><a href="#">Everything Steem</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <div class="hero" style="background-image: url(../images/underwater.jpg)"></div>
+
+  <main class="container main-wrapper">
+
+    <aside class="profile-sidebar">
+      <img class="avatar avatar-rounded--large" src="../images/avatar.jpg" alt="Sugar Steem avatar image of theuxyeti">
+
+      <div class="profile-sidebar__section">
+        <h1>@theUXYeti</h1>
+        <h2>52.5</h2>
+
+        <div class="profile-blurb">
+          <p>UX/UI Expert, Scientist, AR & VR, Photography, Travel, Crypto, Scuba, Reality TV.</p>
+        </div>
+
+        <ul class="profile-meta">
+          <li class="profile-meta__item">Manhattan Beach, CA</li>
+          <li class="profile-meta__item">
+            <a href="#">www.theuxyeti.com</a>
+          </li>
+          <li class="profile-meta__item">Joined December 2017</li>
+        </ul>
+      </div>
+
+      <div class="profile-sidebar__section">
+
+        <div class="voting-power">
+          <strong>Voting Power</strong><br>
+          <strong class="voting-power__percentage">72.71%</strong><br>
+          <span class="voting-power__score">1, 147.43 SP (97.76 + 1,050.41)</span>
+
+          <div class="slider-container">
+
+            <div class="slider-wrapper">
+              <span>0%</span>
+              <input type="range" min="0" max="100" value="25" class="slider slider--vp" id="vp-slider">
+              <span>100%</span>
+            </div>
+
+            <div class="slider-value" id="vp-slider-value">25%</div>
+          </div>
+        </div>
+
+        <p>Bandwidth</p>
+
+      </div>
+
+    </aside>
+
+  </main>
+
+</body>
+</html>
